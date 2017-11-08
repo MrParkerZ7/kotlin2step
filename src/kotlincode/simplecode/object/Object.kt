@@ -1,4 +1,4 @@
-package code.`object`
+package kotlincode.simplecode.`object`
 
 fun main(args: Array<String>) {
     var objOne = Human()

@@ -1,0 +1,2 @@
+package kotlincode.simplecode.variable
+

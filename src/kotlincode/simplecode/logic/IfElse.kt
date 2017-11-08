@@ -1,4 +1,4 @@
-package code.ifelse
+package kotlincode.simplecode.logic
 
 fun main(args: Array<String>) {
     var park: Int = 7

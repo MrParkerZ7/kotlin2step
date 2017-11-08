@@ -1,4 +1,4 @@
-package code.variable
+package kotlincode.simplecode.variable
 
 /**
  * " val " is a final variable in java language.

@@ -1,4 +1,4 @@
-package code.variable
+package kotlincode.simplecode.variable
 
  /**
  * " var " is a variable which can be chang value after assign

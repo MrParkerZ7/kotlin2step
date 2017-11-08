@@ -1,6 +1,4 @@
-package code.`object`
-
-import java.text.DecimalFormat
+package kotlincode.simplecode.`object`
 
 class Human {
     var name: String = ""

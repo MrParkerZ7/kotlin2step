@@ -1,4 +1,4 @@
-package code.kotlinwithjava
+package kotlincode.simplecode.kotlinwithjava.model
 
 class Murderer {
     var name: String = ""

@@ -1,4 +1,4 @@
-package code.kotlinwithjava
+package kotlincode.simplecode.kotlinwithjava.model
 
 fun main(args: Array<String>) {
     var murderer = Murderer()
