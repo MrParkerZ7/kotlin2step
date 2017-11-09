@@ -1,6 +1,6 @@
 package kotlincode.simplecode.variable
 
-/**
+ /**
  * Primitive data type
  * byte
  * boolean
