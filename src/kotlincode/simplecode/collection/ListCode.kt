@@ -1,11 +1,21 @@
-package kotlincode.simplecode.array
+package kotlincode.simplecode.collection
 
 fun main(args: Array<String>) {
 //    immutableList()
-    mutableList()
+//    mutableList()
+    objectList()
 }
 
-fun mutableList() {
+private data class Human(var name: String, var age: Int)
+
+private fun objectList() {
+    var obj: MutableList<Human> = mutableListOf(Human("Park", 24), Human("Maria", 27))
+
+    for (o in obj)
+        println(o)
+}
+
+private fun mutableList() {
     // Mutable can be change value inside
     var name: MutableList<String> = mutableListOf("Mark", "Musk", "Fuck")
     var named: MutableList<String> = mutableListOf<String>("Samaru", "Nick", "Jame", "Micro")

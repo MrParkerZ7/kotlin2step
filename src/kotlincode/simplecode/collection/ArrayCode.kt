@@ -1,7 +1,7 @@
-package kotlincode.simplecode.array
+package kotlincode.simplecode.collection
 
 /**
- * All array here are fixed value size when declare.
+ * All collection here are fixed value size when declare.
  */
 fun main(args: Array<String>) {
 //    intArray()
@@ -24,7 +24,7 @@ private fun arrayAnyType() {
 
 private fun intArray2() {
 
-    // Declare array and without assign value.
+    // Declare collection and without assign value.
     var str = IntArray(4)
     str[0] = 15
     str[1] = 11
@@ -37,7 +37,7 @@ private fun intArray2() {
 
 private fun intArray() {
 
-    // Declare array and assign value simultaneously.
+    // Declare collection and assign value simultaneously.
     var num = intArrayOf(5, 9, 12, 19, 25)
     num[1] = 69
 
