@@ -1,4 +1,4 @@
-package kotlincode.simplecode.classes;
+package kotlincode.simplecode.namedclasskt;
 
 public class JavaCalling {
 

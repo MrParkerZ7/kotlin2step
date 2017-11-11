@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
     jet.talk()
 }
 
-abstract class Human {
+private abstract class Human {
     abstract fun think()
 
     fun talk() {
@@ -18,20 +18,20 @@ abstract class Human {
     }
 }
 
-class Killer : Human() {
+private class Killer : Human() {
     override fun think() {
         println("Killer: need some victim.")
     }
 }
 
-class Victim : Human() {
+private class Victim : Human() {
     override fun think() {
         println("Victim: how can I survive.")
     }
 }
 
 //If you not override function from super class that subclass must be abstract class.
-abstract class Spector : Human() {
+private abstract class Spector : Human() {
     fun warp() {
         println("Spector: warping.")
     }
