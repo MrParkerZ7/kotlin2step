@@ -1,4 +1,4 @@
-package kotlincode.SimpleCode.collection
+package kotlincode.SimpleCode.Collection.Collection
 
 import java.util.function.Consumer
 

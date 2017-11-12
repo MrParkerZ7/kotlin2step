@@ -1,4 +1,4 @@
-package kotlincode.SimpleCode.collection
+package kotlincode.SimpleCode.Collection.Collection
 
 fun main(args: Array<String>) {
 //    immutableList()
