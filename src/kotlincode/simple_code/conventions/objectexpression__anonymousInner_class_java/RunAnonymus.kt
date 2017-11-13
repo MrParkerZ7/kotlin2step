@@ -1,4 +1,4 @@
-package kotlincode.simple_code.Conventions.objectexpression.AnonymousInnerClass_java
+package kotlincode.simple_code.conventions.objectexpression__anonymousInner_class_java
 
 fun main(args: Array<String>) {
 
