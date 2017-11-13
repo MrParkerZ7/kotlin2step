@@ -1,4 +1,4 @@
-package kotlincode.KotlinDocument
+package kotlincode.kotlin_document
 
 fun main(args: Array<String>) {
 

@@ -1,4 +1,4 @@
-package kotlincode.KotlinDocument.basic
+package kotlincode.kotlin_document.a_getting_started
 
 fun main(args: Array<String>) {
     var von = ValueOrNull()

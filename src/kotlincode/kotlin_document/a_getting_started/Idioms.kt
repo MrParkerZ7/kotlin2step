@@ -1,4 +1,4 @@
-package kotlincode.KotlinDocument.basic
+package kotlincode.kotlin_document.a_getting_started
 
 import java.io.File
 import java.nio.file.Files
@@ -17,7 +17,7 @@ fun main(args: Array<String>) {
 //    funExpressionSingleLine()
 //    multipleCallingMethodsOnObject()
     javaStream()
-    
+
 }
 
 fun javaStream() {
