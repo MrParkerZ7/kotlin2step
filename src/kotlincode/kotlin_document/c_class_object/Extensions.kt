@@ -2,15 +2,25 @@ package kotlincode.kotlin_document.c_class_object
 
 fun main(args: Array<String>) {
 //    extensionFunction()
-    extendVsMember()
-    propertiesExtension()
+//    extendVsMember()
+//    companionExtensions()
+
 }
 
-fun propertiesExtension() {
-    
+fun companionExtensions() {
+    Car.wheel()
 }
 
-fun extendVsMember() {
+private class Car {
+    companion object // Require if we want to extend companion function of variable.
+}
+
+private fun Car.Companion.wheel() { // Extended companion extension function
+    println("Wheel: rolling")
+}
+
+
+private fun extendVsMember() {
     class ExtendVsMember {
         fun run() = println("Member: Nope!")
     }
@@ -19,7 +29,6 @@ fun extendVsMember() {
 
     var ex = ExtendVsMember()
     ex.run()
-
 }
 
 private fun extensionFunction() {
