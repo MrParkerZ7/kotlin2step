@@ -9,7 +9,7 @@ fun main(args: Array<String>) {
 }
 
 private fun consumerShrinkManner() {
-    var model = mutableListOf<Motorbike>(Motorbike("Kawasaki", 1000), Motorbike("BMW", 1000))
+    var model = mutableListOf<Motorbike>(Motorbike("Kawasaki", 1000), Motorbike("S1000RR", 1000))
 
 //    model.forEach({ m -> print(m) })
 //    model.forEach({ println(it) })
@@ -17,7 +17,7 @@ private fun consumerShrinkManner() {
 }
 
 private fun consumerFullManner() {
-    var model = mutableListOf<Motorbike>(Motorbike("Kawasaki", 1000), Motorbike("BMW", 1000))
+    var model = mutableListOf<Motorbike>(Motorbike("Kawasaki", 1000), Motorbike("S1000RR", 1000))
 
     var con: Consumer<Motorbike> = object : Consumer<Motorbike> {
         override fun accept(t: Motorbike) {
