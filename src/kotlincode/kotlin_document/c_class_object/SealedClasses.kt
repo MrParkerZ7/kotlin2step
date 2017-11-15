@@ -24,3 +24,4 @@ private sealed class Human(var aName: String, var aAge: Int) {
     }
 
 }
+
