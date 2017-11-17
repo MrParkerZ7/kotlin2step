@@ -5,7 +5,7 @@ import java.awt.event.MouseEvent
 import javax.swing.JComponent
 
 fun main(args: Array<String>) {
-//    objValueFunction()
+    objValueFunction()
 
 }
 
