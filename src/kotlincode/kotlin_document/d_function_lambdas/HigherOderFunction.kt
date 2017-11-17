@@ -24,7 +24,7 @@ fun main(args: Array<String>) {
 
     // "it" in lambda anonymous function. it referent to single parameter of method. which mean it allow with single parameter method only.
     putMethodIntoParameter(12_000, { println("Lambda It: $it") })
-4
+
 }
 
 
