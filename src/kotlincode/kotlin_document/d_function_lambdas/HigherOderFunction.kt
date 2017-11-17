@@ -14,13 +14,17 @@ fun main(args: Array<String>) {
     putMethodIntoParameter(27_000) { result: Int -> println("Salary + Bonus (2) : $result") }
 
     // Variable method into parameter
-    val sala = { salary: Int -> println("Bonus + Salary : $salary") }
+    val sala = { salary: Int -> println("Variable: $salary") }
     putMethodIntoParameter(30_000, sala)
 
+    // Closures in kotlin we can reassign value of variable from method lambda function.
     var salaryResult = 0
     putMethodIntoParameter(45_000, { salary: Int -> salaryResult = salary })
-    println("SalaryResult: " + salaryResult)
+    println("Closures: " + salaryResult)
 
+    // "it" in lambda anonymous function. it referent to single parameter of method. which mean it allow with single parameter method only.
+    putMethodIntoParameter(12_000, { println("Lambda It: $it") })
+4
 }
 
 
