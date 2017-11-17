@@ -8,6 +8,7 @@ fun main(args: Array<String>) {
 }
 
 fun functionLiteralsReceiver() {
+    // extensions function
     var sum = fun Int.(value: Int): Int = this + value
     var multi = fun Int.(value: Int): Int = this * value
 
