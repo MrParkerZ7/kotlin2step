@@ -7,6 +7,21 @@ fun main(args: Array<String>) {
     var (dailyWages, partTime) = reward(15)
     println("$dailyWages : $partTime")
 
+    var (_,pTime) = reward(50)
+    println("$pTime")
+
+    destructureByLoop()
+}
+
+
+private fun destructureByLoop() {
+    var list = listOf(
+            Person("Park", 23, Sex.Male),
+            Person("Suck", 45, Sex.Male),
+            Person("Maria", 27, Sex.Female))
+
+    for ((name, age, sex) in list)
+        println("$name : $age : $sex")
 }
 
 private fun reward(workedTime: Int): Reward = Reward((workedTime / 8) * 1_000, (workedTime % 8) * 300)
