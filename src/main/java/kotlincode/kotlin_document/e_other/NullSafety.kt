@@ -7,8 +7,8 @@ fun main(args: Array<String>) {
 }
 
 fun nonOrNull() {
-    val b :String? = null // throw null exception when it's null
-    val l = b!!.length
+    val b :String? = null
+    val l = b!!.length // throw null exception when it's null
     println(l)
 }
 
