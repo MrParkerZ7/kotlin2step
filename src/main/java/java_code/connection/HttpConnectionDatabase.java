@@ -12,7 +12,7 @@ public class HttpConnectionDatabase {
          */
         try {
             //This is code that you would use to attempt access to a database with no password required to read data out.
-//            URL urlD = new URL("http:https://www.lds.org/?lang-eng"); //Webiste is just for the example.
+//            URL urlD = new URL("http:https://www.lds.org/?lang-eng"); //Webiste is just for the basic.
 //            HttpURLConnection urlDcon = (HttpURLConnection) urlD.openConnection();
             //You should alread by familiar with the above two lines of code as they are talked about in the other code.
 
